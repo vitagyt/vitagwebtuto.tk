@@ -7,17 +7,86 @@ body
   font-family: 'Open Sans', sans-serif;
   margin:0 auto;
   padding: 0;
+  text-align: center;
+}
 
 section
 {
-    text-align: center;
+  top: 10px;
+  width: 60%;
+  min-height: 100%;
+  position: relative;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 section article
 {
-    background: rgb(255,0,0);
-    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,178,178,1) 100%);
-    width: 70%;
+  margin-bottom: 5%;
+  background: rgb(0,155,255);
+  background: linear-gradient(90deg, rgba(0,155,255,1) 0%, rgba(0,74,255,1) 100%);
+  border: thick;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  box-shadow: 2px 2px 2px rgba(121,121,121,1);
+  padding:3%;
+  font-weight: lighter;
+  color: #fff;
+  text-align: left;
+}
+
+section article p, section article a, section article h2
+{
+  background-color: inherit;
+}
+
+section article a
+{
+  color: #fff;
+  text-decoration: none;
+  font-style: oblique;
+}
+
+section article a:hover
+{
+    transition: 0.3s all;
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+section article h2
+{
+  text-align: left;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 4%;
+}
+
+section article p
+{
+  font-size: 15px;
+  color: #EDEAEA;
+}
+
+article#cc
+{
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,128,98,1) 52%, rgba(64,216,247,1) 100%);
+}
+
+.wrapper
+{
+  text-align: center;
+  width: 100%;
+}
+
+section article#presentation
+{
+  background: rgb(255,0,0);
+  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,93,0,1) 55%, rgba(107,36,0,1) 100%);
 }
 
 footer
