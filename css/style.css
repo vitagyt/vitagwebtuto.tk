@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Body */
+
+body
+{
+  font-family: 'Open Sans', sans-serif;
+  margin:0 auto;
+  padding: 0;
+
+section
+{
+    text-align: center;
+}
+
+section article
+{
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,178,178,1) 100%);
+    width: 70%;
+}
+
+footer
+{
+  background: rgb(209,209,209);
+  background: linear-gradient(90deg, rgba(209,209,209,1) 0%, rgba(255,255,255,1) 50%, rgba(209,209,209,1) 100%);
+  position: absolute;
+  border-top: 2px solid black;
+  text-align:center;
+  width:100%;
+  margin-top: 8%;
+  line-height: 1px;
+}
+
+
+footer a i
+{
+    text-align: center;
+    font-size: 40px;
+    margin: 1% 5%;
+}
+
+footer a i#twitter
+{
+    color: #1DA1F2;
+}
+
+footer a i#youtube
+{
+    color: #FF0000;
+}
+
+footer a i#discord
+{
+  color: #7289da
+}
+
+footer a i:hover
+{
+    transition: 0.3s all;
+    opacity: 0.8;
+}
