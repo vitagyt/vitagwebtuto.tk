@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: vitagwebtuto.tk
+Token: 1b5b27efb5820a30d22c2e3bd738416acbc9d920509112a8d257beeb2d650ad5
