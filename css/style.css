@@ -90,6 +90,15 @@ section article#presentation
 
 /* footer */
 
+div#creator h4
+{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
 div#creator
 {
     padding: 1%;
