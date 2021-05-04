@@ -90,6 +90,16 @@ section article#presentation
 
 /* footer */
 
+footer
+{
+    border-top: 1px solid #000;
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,151,255,1) 37%, rgba(2,0,36,1) 100%);
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+
 div#creator h4
 {
     text-transform: uppercase;
@@ -97,6 +107,7 @@ div#creator h4
     font-size: 20px;
     text-align: center;
     font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
 }
 
 div#creator
