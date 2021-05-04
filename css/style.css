@@ -88,20 +88,15 @@ section article#presentation
   background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,93,0,1) 55%, rgba(107,36,0,1) 100%);
 }
 
-footer
-{
-  background: rgb(209,209,209);
-  background: linear-gradient(90deg, rgba(209,209,209,1) 0%, rgba(255,255,255,1) 50%, rgba(209,209,209,1) 100%);
-  position: absolute;
-  border-top: 2px solid black;
-  text-align:center;
-  width:100%;
-  margin-top: 8%;
-  line-height: 1px;
-}
-
-
 /* footer */
+
+div#creator
+{
+    padding: 1%;
+    border: 1px solid #fff;
+    width: 25%;
+    margin: 1% auto;
+}
 
 footer
 {
