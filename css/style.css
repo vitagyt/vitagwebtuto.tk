@@ -90,21 +90,11 @@ section article#presentation
 
 /* footer */
 
-footer
-{
-    border-top: 1px solid #000;
-    background: rgb(9,9,121);
-    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,151,255,1) 37%, rgba(2,0,36,1) 100%);
-    text-align: center;
-    color: #fff;
-    font-size: 15px;
-}
-
 div#creator h4
 {
     text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 20px;
+    letter-spacing: 5px;
+    font-size: 15px;
     text-align: center;
     font-weight: bolder;
     font-family: 'Open Sans', sans-serif;
@@ -112,10 +102,9 @@ div#creator h4
 
 div#creator
 {
-    padding: 1%;
     border: 1px solid #fff;
     width: 25%;
-    margin: 1% auto;
+    margin: 0.5% auto;
 }
 
 footer
@@ -128,6 +117,7 @@ footer
     font-size: 15px;
     width: 100%;
     position: absolute;
+    margin-top: 10%;
 }
 footer a i
 {
